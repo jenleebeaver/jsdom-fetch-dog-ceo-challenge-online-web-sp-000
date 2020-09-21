@@ -33,10 +33,11 @@ function addImage(dogPicUrl) {
 }
 
 //CHALLENGE 2:
-const breedUrl = 'https://dog.ceo/api/breeds/list/all';
+
 
 //add breeds to page in ul
 function loadBreedOptions() {
+  const breedUrl = 'https://dog.ceo/api/breeds/list/all';
 fetch(breedURL)
   .then(resp => resp.json())
   .then(resp => {
