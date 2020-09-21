@@ -45,4 +45,4 @@ fetch(breedURL)
     updateBreedList(breeds);
     addBreedSelectListener();
     //allows user to select a breed from a list of images using drop down menu
-  })
+  });
