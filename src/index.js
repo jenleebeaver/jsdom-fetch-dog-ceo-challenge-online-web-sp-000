@@ -33,8 +33,6 @@ function addImage(dogPicUrl) {
 }
 
 //CHALLENGE 2:
-
-
 //add breeds to page in ul
 function loadBreedOptions() {
   const breedUrl = 'https://dog.ceo/api/breeds/list/all';
