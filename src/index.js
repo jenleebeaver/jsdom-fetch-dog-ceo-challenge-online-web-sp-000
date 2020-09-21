@@ -75,5 +75,5 @@ fetch(breedURL)
   }
 
   function selectBreeds(letter) {
-    
+    updateBreedList(breeds.filter(breed => breed.startsWith(letter)));
   }
