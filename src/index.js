@@ -60,5 +60,5 @@ fetch(breedURL)
     li.innerText = breed;
     li.style.cursor = 'pointer';
     ul.appendChild(li);
-    li.addEventListener
+    li.addEventListener('click', updateColor);
   }
