@@ -58,5 +58,5 @@ fetch(breedURL)
     let ul = document.querySelector('#dog-breeds');
     let li = document.createElement('li');
     li.innerText = breed;
-    li.style.cursor = 'pointer'
+    li.style.cursor = 'pointer';
   }
