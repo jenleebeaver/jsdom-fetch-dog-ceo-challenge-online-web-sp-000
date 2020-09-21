@@ -50,4 +50,5 @@ fetch(breedURL)
   //here we are iterating through breeds
   function updateBreedList(breeds){
     let ul = document.querySelector('#dog-breeds');
+    breeds.forEach(breed => addBreed(breed));
   }
