@@ -52,3 +52,6 @@ fetch(breedURL)
     let ul = document.querySelector('#dog-breeds');
     breeds.forEach(breed => addBreed(breed));
   }
+
+  //adding breed into list ul
+  
