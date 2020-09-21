@@ -42,4 +42,5 @@ fetch(breedURL)
   .then(resp => {
     breeds = Object.keys(results.message);
     //keys returns an array that has strings = to enumerable properties (=true)
+    updateBreedList(breeds);
   })
