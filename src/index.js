@@ -36,7 +36,7 @@ function addImage(dogPicUrl) {
 const breedUrl = 'https://dog.ceo/api/breeds/list/all';
 
 //add breeds to page in ul
-
+function loadBreedOptions() {
 fetch(breedURL)
   .then(resp => resp.json())
   .then(resp => {
@@ -46,6 +46,7 @@ fetch(breedURL)
     addBreedSelectListener();
     //allows user to select a breed from a list of images using drop down menu
   });
+}
 
   //here we are iterating through breeds
   function updateBreedList(breeds){
