@@ -36,3 +36,6 @@ function addImage(dogPicUrl) {
 const breedUrl = 'https://dog.ceo/api/breeds/list/all';
 
 //add breeds to page in ul 
+
+fetch(breedURL)
+  .then(resp => resp.json())
