@@ -44,5 +44,5 @@ fetch(breedURL)
     //keys returns an array that has strings = to enumerable properties (=true)
     updateBreedList(breeds);
     addBreedSelectListener();
-    //allows user to select a breed from a list of images using drop down meny 
+    //allows user to select a breed from a list of images using drop down menu
   })
