@@ -55,5 +55,5 @@ fetch(breedURL)
 
   //adding breed into list ul
   function addBreed(breed){
-    let ul = document.querySelector('#dog-breeds')
+    let ul = document.querySelector('#dog-breeds');
   }
