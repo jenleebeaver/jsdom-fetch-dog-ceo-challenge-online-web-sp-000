@@ -74,4 +74,6 @@ fetch(breedURL)
     });
   }
 
-  
+  function selectBreeds(letter) {
+    
+  }
