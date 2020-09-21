@@ -39,3 +39,6 @@ const breedUrl = 'https://dog.ceo/api/breeds/list/all';
 
 fetch(breedURL)
   .then(resp => resp.json())
+  .then(resp => {
+    breeds = Object.keys(results.message);
+  })
