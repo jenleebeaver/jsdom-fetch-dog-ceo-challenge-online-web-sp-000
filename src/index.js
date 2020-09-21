@@ -36,15 +36,15 @@ function addImage(dogPicUrl) {
 //add breeds to page in ul
 function loadBreedOptions() {
   const breedUrl = 'https://dog.ceo/api/breeds/list/all';
-fetch(breedURL)
-  .then(resp => resp.json())
-  .then(resp => {
-    breeds = Object.keys(results.message);
-    //keys returns an array that has strings = to enumerable properties (=true)
-    updateBreedList(breeds);
-    addBreedSelectListener();
-    //allows user to select a breed from a list of images using drop down menu
-  });
+  fetch(breedURL)
+    .then(resp => resp.json())
+    .then(resp => {
+      breeds = Object.keys(results.message);
+      //keys returns an array that has strings = to enumerable properties (=true)
+      updateBreedList(breeds);
+      addBreedSelectListener();
+      //allows user to select a breed from a list of images using drop down menu
+    });
 }
 
   //here we are iterating through breeds
