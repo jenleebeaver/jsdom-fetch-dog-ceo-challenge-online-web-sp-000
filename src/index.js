@@ -66,3 +66,7 @@ fetch(breedURL)
   function updateColor(event){
     event.target.style.color = 'palevioletred'
   }
+
+  function addBreedSelectListener() {
+    let breedDropdown = document.querySelector('#breed-dropdown');
+  }
