@@ -41,5 +41,5 @@ fetch(breedURL)
   .then(resp => resp.json())
   .then(resp => {
     breeds = Object.keys(results.message);
-    //keys retunrs an array that has strings = to enumerable properties (=true)
+    //keys returns an array that has strings = to enumerable properties (=true)
   })
