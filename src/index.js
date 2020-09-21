@@ -48,3 +48,4 @@ fetch(breedURL)
   });
 
   //here we are iterating through breeds
+  function updateBreedList(breeds)
