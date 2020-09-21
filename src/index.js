@@ -59,4 +59,5 @@ fetch(breedURL)
     let li = document.createElement('li');
     li.innerText = breed;
     li.style.cursor = 'pointer';
+    ul.appendChild(li);
   }
