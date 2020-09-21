@@ -69,4 +69,5 @@ fetch(breedURL)
 
   function addBreedSelectListener() {
     let breedDropdown = document.querySelector('#breed-dropdown');
+    breedDropdown.addEventListener
   }
